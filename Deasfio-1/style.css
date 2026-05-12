@@ -1,0 +1,128 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    margin: 44px 0 144px 76px;
+
+}
+ a {
+    display: inline-block;
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px; 
+    width: 120px;
+    height: 29px;
+    gap: 45px;
+    cursor: pointer;
+
+}
+
+#service{
+   margin-left: 25px;
+}
+.login{
+    font-weight: 600;
+    font-size: 24px;
+    width: 130px; 
+    height: 41px;
+    background-color: #665AE1;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.section1{
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+}
+.section2{
+    display: inline-block;
+    margin-left: 86px;}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    width:513px;
+    height: 122px;
+    color: #515151;
+
+}
+h2{
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+
+}
+p{ 
+    margin-top: 32px;
+    width: 515px;
+    height: 87px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #848484;
+}
+.explore{
+    width: 239px;
+    height:64px;
+    border-radius: 50px;
+    background-color: #ADFF00;
+    border: none;
+    cursor: pointer; 
+   font-weight: 700;
+    font-size: 28px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    margin-top: 65px;
+    }
+
+    @media screen and (max-width: 900px){
+        .tudo{
+            width: 50vh;
+        }
+        .cachorro{
+            width: 354px;
+            height: 317px;
+           
+        }
+        .section1{ 
+             width: 354px;
+            height: 317px;
+            align-items: center;
+            flex-direction: column;       
+           margin: 90px 0 0 4px;
+        }
+
+        h1{
+            width: 263px;
+            height: 52px;
+            text-align: center;  
+            font-size: 50px;
+        }
+        h2{
+            width: 232px;
+            height: 37px;
+            text-align: center;
+            font-size: 30px;
+        }
+        p{
+            display: none;
+        }
+        header{
+            display: none;
+        }
+        .section2{ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 60px 0 20px;
+        }
+    }
